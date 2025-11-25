@@ -1,0 +1,24 @@
+[35m[1mScanning dependencies of target sub1[0m
+[ 50%] Built target pub1
+[ 75%] [32mBuilding CXX object CMakeFiles/sub1.dir/src/sub1.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sub1[0m
+[100%] Built target sub1
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/lib/camera_ros2-1/pub1
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/lib/camera_ros2-1/sub1
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/ament_index/resource_index/package_run_dependencies/camera_ros2-1
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/ament_index/resource_index/parent_prefix_path/camera_ros2-1
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/environment/ament_prefix_path.sh
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/environment/ament_prefix_path.dsv
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/environment/path.sh
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/environment/path.dsv
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/local_setup.bash
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/local_setup.sh
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/local_setup.zsh
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/local_setup.dsv
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/package.dsv
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/ament_index/resource_index/packages/camera_ros2-1
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/cmake/camera_ros2-1Config.cmake
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/cmake/camera_ros2-1Config-version.cmake
+-- Symlinking: /home/linux/ROS2/install/camera_ros2-1/share/camera_ros2-1/package.xml

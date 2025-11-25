@@ -1,0 +1,2 @@
+Invoking command in '/home/linux/ROS2/src/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2/src/camera_ros2-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2/src/install/camera_ros2-2
+Invoked command in '/home/linux/ROS2/src/build/camera_ros2-2' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2/src/camera_ros2-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2/src/install/camera_ros2-2

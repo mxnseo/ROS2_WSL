@@ -1,0 +1,24 @@
+[01m[K/home/linux/ROS2/src/camera_ros2-1/src/sub1.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/linux/ROS2/src/camera_ros2-1/src/sub1.cpp:14:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kgray[m[K’ was not declared in this scope
+   14 |     cv::cvtColor(frame_gray, [01;31m[Kgray[m[K, cv::COLOR_BGR2GRAY);
+      |                              [01;31m[K^~~~[m[K
+[01m[K/home/linux/ROS2/src/camera_ros2-1/src/sub1.cpp:17:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kbinary[m[K’ was not declared in this scope
+   17 |     cv::threshold(frame_binary, [01;31m[Kbinary[m[K, 128, 255, cv::THRESH_BINARY);
+      |                                 [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/linux/ROS2/src/camera_ros2-1/src/sub1.cpp:1[m[K:
+[01m[K/home/linux/ROS2/src/camera_ros2-1/src/sub1.cpp:24:86:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe[m[K’ was not declared in this scope
+   24 |     RCLCPP_INFO(node->get_logger(), "Received Image : %s,%d,%d", msg->format.c_str(),[01;31m[Kframe[m[K.rows,frame.cols);
+      |                                                                                      [01;31m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/sub1.dir/build.make:63: CMakeFiles/sub1.dir/src/sub1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/sub1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

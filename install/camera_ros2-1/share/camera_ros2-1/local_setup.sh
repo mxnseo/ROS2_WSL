@@ -1,0 +1,1 @@
+/home/linux/ROS2/build/camera_ros2-1/ament_cmake_environment_hooks/local_setup.sh
