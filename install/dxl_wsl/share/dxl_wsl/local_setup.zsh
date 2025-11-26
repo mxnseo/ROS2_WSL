@@ -1,0 +1,1 @@
+/home/linux/ROS2/build/dxl_wsl/ament_cmake_environment_hooks/local_setup.zsh
