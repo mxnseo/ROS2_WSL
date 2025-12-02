@@ -1,0 +1,4 @@
+source;share/linedetect_nano/local_setup.bash
+source;share/linedetect_nano/local_setup.dsv
+source;share/linedetect_nano/local_setup.sh
+source;share/linedetect_nano/local_setup.zsh

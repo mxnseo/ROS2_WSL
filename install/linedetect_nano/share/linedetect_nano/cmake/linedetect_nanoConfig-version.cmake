@@ -1,0 +1,1 @@
+/home/linux/ROS2_WSL/build/linedetect_nano/ament_cmake_core/linedetect_nanoConfig-version.cmake
