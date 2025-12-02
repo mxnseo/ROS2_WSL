@@ -16,10 +16,11 @@ void mysub_callback(rclcpp::Node::SharedPtr node, const sensor_msgs::msg::Compre
 
     cv::Mat frame_binary;
     cv::threshold(frame_gray, frame_binary, 128, 255, cv::THRESH_BINARY);
+    
+    cv::Mat roi = frame_binary(cv::Rect(0, 240, 640, 120));
 
     cv::imshow("frame_color", frame_color);
-    cv::imshow("frame_gray", frame_gray);
-    cv::imshow("frame_binary", frame_binary);
+    cv::imshow("frame_roi", roi);
 
     cv::waitKey(1);
     RCLCPP_INFO(node->get_logger(), "Received Image : %s,%d,%d", msg->format.c_str(),frame_color.rows, frame_color.cols);

@@ -1,0 +1,8 @@
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:17:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kframe_binary[m[K’ was not declared in this scope; did you mean ‘[01m[Kframe_gray[m[K’?
+   17 |     cv::threshold(frame_gray, [01;31m[Kframe_binary[m[K, 128, 255, cv::THRESH_BINARY);
+      |                               [01;31m[K^~~~~~~~~~~~[m[K
+      |                               [32m[Kframe_gray[m[K
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
