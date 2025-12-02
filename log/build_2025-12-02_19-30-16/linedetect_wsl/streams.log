@@ -1,0 +1,24 @@
+[0.007s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32
+[0.021s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.032s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.137s] Traceback (most recent call last):
+[0.137s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+[0.137s]     from ament_package.templates import get_environment_hook_template_path
+[0.137s] ModuleNotFoundError: No module named 'ament_package'
+[0.145s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+[0.145s]   execute_process(/usr/bin/python3
+[0.145s]   /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+[0.145s]   /home/linux/ROS2_WSL/build/linedetect_wsl/ament_cmake_package_templates/templates.cmake)
+[0.145s]   returned error code 1
+[0.145s] Call Stack (most recent call first):
+[0.145s]   /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+[0.145s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmake_export_dependencies-extras.cmake:15 (find_package)
+[0.145s]   /opt/ros/foxy/share/ament_cmake/cmake/ament_cmakeConfig.cmake:41 (include)
+[0.145s]   CMakeLists.txt:14 (find_package)
+[0.145s] 
+[0.145s] 
+[0.145s] -- Configuring incomplete, errors occurred!
+[0.145s] See also "/home/linux/ROS2_WSL/build/linedetect_wsl/CMakeFiles/CMakeOutput.log".
+[0.145s] See also "/home/linux/ROS2_WSL/build/linedetect_wsl/CMakeFiles/CMakeError.log".
+[0.146s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.148s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '2': /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32

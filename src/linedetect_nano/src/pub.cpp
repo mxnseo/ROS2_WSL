@@ -6,7 +6,8 @@
 #include <chrono>
 
 // 비디오 경로 문자열로 미리 저장해놓은 거
-std::string src = "/home/linux/simulation/5_lt_cw_100rpm_out.mp4"; 
+std::string src = "./5_lt_cw_100rpm_out.mp4"; 
+// std::string src = "./7_lt_ccw_100rpm_in.mp4"; 
 
 int main(int argc, char * argv[])
 {
@@ -18,7 +19,7 @@ int main(int argc, char * argv[])
     
     std_msgs::msg::Header hdr;
     sensor_msgs::msg::CompressedImage::SharedPtr msg;
-    rclcpp::WallRate loop_rate(20.0); // 초당 n장 보내는 중 (주기)
+    rclcpp::WallRate loop_rate(35.0); // 초당 n장 보내는 중 (주기)
 
     cv::VideoCapture cap(src); // 동영상 가져옴
 

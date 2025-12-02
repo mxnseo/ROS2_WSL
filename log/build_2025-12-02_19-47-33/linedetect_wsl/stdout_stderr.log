@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target sub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sub[0m
+make[2]: *** Deleting file 'sub'
+make[2]: *** [CMakeFiles/sub.dir/build.make:189: sub] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

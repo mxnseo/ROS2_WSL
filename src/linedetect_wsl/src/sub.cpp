@@ -15,7 +15,7 @@ void mysub_callback(rclcpp::Node::SharedPtr node, const sensor_msgs::msg::Compre
     cv::cvtColor(frame_color, frame_gray, cv::COLOR_BGR2GRAY);
 
     cv::Mat frame_binary;
-    cv::threshold(frame_gray, frame_binary, 128, 255, cv::THRESH_BINARY);
+    cv::threshold(frame_gray, frame_binary, 0, 255, cv::THRESH_BINARY | cv::THRESH_OTSU);
     
     cv::Mat roi = frame_binary(cv::Rect(0, 240, 640, 120));
 
