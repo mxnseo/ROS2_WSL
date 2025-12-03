@@ -1,0 +1,7 @@
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:53:34:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kvoid[m[K’ to non-scalar type ‘[01m[Kcv::Mat[m[K’ requested
+   53 |     cv::Mat result = [01;31m[Kcv::cvtColor(roi, result, cv::COLOR_GRAY2RGB)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

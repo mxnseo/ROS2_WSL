@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j28 -l28
+[0.079s] [35m[1mScanning dependencies of target sub[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.313s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.313s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:47:130:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Scalar[m[K’?
+[1.313s]    47 | ect(stats.at<int>(i, 0), stats.at<int>(i, 1), stats.at<int>(i, 2), stats.at<int>(i, 3)), [01;31m[KScalar[m[K(0, 0, 255));
+[1.313s]       |                                                                                          [01;31m[K^~~~~~[m[K
+[1.313s]       |                                                                                          [32m[Kcv::Scalar[m[K
+[1.313s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[1.313s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[1.313s]                  from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[1.313s] [01m[K/usr/include/opencv4/opencv2/core/types.hpp:669:25:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar[m[K’ declared here
+[1.313s]   669 | typedef Scalar_<double> [01;36m[KScalar[m[K;
+[1.313s]       |                         [01;36m[K^~~~~~[m[K
+[1.313s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:51:130:[m[K [01;31m[Kerror: [m[K‘[01m[KScalar[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Scalar[m[K’?
+[1.314s]    51 | ect(stats.at<int>(i, 0), stats.at<int>(i, 1), stats.at<int>(i, 2), stats.at<int>(i, 3)), [01;31m[KScalar[m[K(255, 0, 0));
+[1.314s]       |                                                                                          [01;31m[K^~~~~~[m[K
+[1.314s]       |                                                                                          [32m[Kcv::Scalar[m[K
+[1.314s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[1.314s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[1.314s]                  from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[1.314s] [01m[K/usr/include/opencv4/opencv2/core/types.hpp:669:25:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Scalar[m[K’ declared here
+[1.314s]   669 | typedef Scalar_<double> [01;36m[KScalar[m[K;
+[1.314s]       |                         [01;36m[K^~~~~~[m[K
+[2.319s] make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+[2.319s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+[2.319s] make: *** [Makefile:141: all] Error 2
+[2.321s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j28 -l28

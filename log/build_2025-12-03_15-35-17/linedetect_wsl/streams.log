@@ -1,0 +1,11 @@
+[0.008s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j28 -l28
+[0.030s] [35m[1mScanning dependencies of target sub[0m
+[0.043s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.209s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.209s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:53:34:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kvoid[m[K’ to non-scalar type ‘[01m[Kcv::Mat[m[K’ requested
+[1.209s]    53 |     cv::Mat result = [01;31m[Kcv::cvtColor(roi, result, cv::COLOR_GRAY2RGB)[m[K;
+[1.209s]       |                      [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.224s] make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+[2.224s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+[2.224s] make: *** [Makefile:141: all] Error 2
+[2.226s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j28 -l28

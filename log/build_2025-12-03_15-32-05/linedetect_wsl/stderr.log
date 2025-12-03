@@ -1,0 +1,12 @@
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:53:44:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kcv::OutputArray[m[K’ {aka ‘[01m[Kconst cv::_OutputArray&[m[K’} from expression of type ‘[01m[Kcv::ColorConversionCodes[m[K’
+   53 |     cv::Mat result = cv::cvtColor(roi, [01;31m[Kcv::COLOR_BGR2RGB[m[K);
+      |                                        [01;31m[K~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:74[m[K,
+                 from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/imgproc.hpp:3542:57:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kvoid cv::cvtColor(cv::InputArray, cv::OutputArray, int, int)[m[K’
+ 3542 | CV_EXPORTS_W void cvtColor( InputArray src, [01;36m[KOutputArray dst[m[K, int code, int dstCn = 0 );
+      |                                             [01;36m[K~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

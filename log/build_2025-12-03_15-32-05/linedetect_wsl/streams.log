@@ -1,0 +1,16 @@
+[0.011s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j28 -l28
+[0.077s] [35m[1mScanning dependencies of target sub[0m
+[0.093s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.362s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.362s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:53:44:[m[K [01;31m[Kerror: [m[Kinvalid initialization of reference of type ‘[01m[Kcv::OutputArray[m[K’ {aka ‘[01m[Kconst cv::_OutputArray&[m[K’} from expression of type ‘[01m[Kcv::ColorConversionCodes[m[K’
+[1.362s]    53 |     cv::Mat result = cv::cvtColor(roi, [01;31m[Kcv::COLOR_BGR2RGB[m[K);
+[1.362s]       |                                        [01;31m[K~~~~^~~~~~~~~~~~~[m[K
+[1.362s] In file included from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:74[m[K,
+[1.362s]                  from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[1.362s] [01m[K/usr/include/opencv4/opencv2/imgproc.hpp:3542:57:[m[K [01;36m[Knote: [m[Kin passing argument 2 of ‘[01m[Kvoid cv::cvtColor(cv::InputArray, cv::OutputArray, int, int)[m[K’
+[1.362s]  3542 | CV_EXPORTS_W void cvtColor( InputArray src, [01;36m[KOutputArray dst[m[K, int code, int dstCn = 0 );
+[1.362s]       |                                             [01;36m[K~~~~~~~~~~~~^~~[m[K
+[2.381s] make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+[2.381s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+[2.381s] make: *** [Makefile:141: all] Error 2
+[2.383s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j28 -l28

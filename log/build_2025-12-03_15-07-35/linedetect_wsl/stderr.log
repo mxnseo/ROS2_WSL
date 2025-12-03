@@ -1,0 +1,58 @@
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:37:25:[m[K [01;31m[Kerror: [m[K‘[01m[KcvRound[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcvRound[m[K’?
+   37 |             int x = cv::[01;31m[KcvRound[m[K(centroids.at<double>(i, 0));
+      |                         [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/saturate.hpp:49[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:54[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/fast_math.hpp:335:15:[m[K [01;36m[Knote: [m[K‘[01m[KcvRound[m[K’ declared here
+  335 | CV_INLINE int [01;36m[KcvRound[m[K( int value )
+      |               [01;36m[K^~~~~~~[m[K
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[KcvRound[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcvRound[m[K’?
+   38 |             int y = cv::[01;31m[KcvRound[m[K(centroids.at<double>(i, 1));
+      |                         [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/saturate.hpp:49[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:54[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/fast_math.hpp:335:15:[m[K [01;36m[Knote: [m[K‘[01m[KcvRound[m[K’ declared here
+  335 | CV_INLINE int [01;36m[KcvRound[m[K( int value )
+      |               [01;36m[K^~~~~~~[m[K
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:39:33:[m[K [01;31m[Kerror: [m[K‘[01m[KPoint[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Point[m[K’?
+   39 |             int dist = cv::norm([01;31m[KPoint[m[K(x, y) - tmp_pt);
+      |                                 [01;31m[K^~~~~[m[K
+      |                                 [32m[Kcv::Point[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/types.hpp:194:17:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Point[m[K’ declared here
+  194 | typedef Point2i [01;36m[KPoint[m[K;
+      |                 [01;36m[K^~~~~[m[K
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:49:32:[m[K [01;31m[Kerror: [m[K‘[01m[KcvRound[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcvRound[m[K’?
+   49 |         tmp_pt = cv::Point(cv::[01;31m[KcvRound[m[K(centroids.at<double>(min_idx, 0)), cv::cvRound(centroids.at<double>(min_idx, 1)))
+      |                                [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/saturate.hpp:49[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:54[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/fast_math.hpp:335:15:[m[K [01;36m[Knote: [m[K‘[01m[KcvRound[m[K’ declared here
+  335 | CV_INLINE int [01;36m[KcvRound[m[K( int value )
+      |               [01;36m[K^~~~~~~[m[K
+[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:49:79:[m[K [01;31m[Kerror: [m[K‘[01m[KcvRound[m[K’ is not a member of ‘[01m[Kcv[m[K’; did you mean ‘[01m[KcvRound[m[K’?
+   49 |         tmp_pt = cv::Point(cv::cvRound(centroids.at<double>(min_idx, 0)), cv::[01;31m[KcvRound[m[K(centroids.at<double>(min_idx, 1)))
+      |                                                                               [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/saturate.hpp:49[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:54[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:57[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:3[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/fast_math.hpp:335:15:[m[K [01;36m[Knote: [m[K‘[01m[KcvRound[m[K’ declared here
+  335 | CV_INLINE int [01;36m[KcvRound[m[K( int value )
+      |               [01;36m[K^~~~~~~[m[K
+make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
