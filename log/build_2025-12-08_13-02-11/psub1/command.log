@@ -1,0 +1,2 @@
+Invoking command in '/home/linux/ROS2_WSL/build/psub1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/linux/ROS2_WSL/build/psub1 -- -j32 -l32
+Invoked command in '/home/linux/ROS2_WSL/build/psub1' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/linux/ROS2_WSL/build/psub1 -- -j32 -l32

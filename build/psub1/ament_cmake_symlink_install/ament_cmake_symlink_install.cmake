@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/linux/ros2_ws/install/psub1/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/linux/ROS2_WSL/install/psub1/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/linux/ros2_ws/install/psub1/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/linux/ROS2_WSL/install/psub1/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/linux/ros2_ws/install/psub1/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/linux/ROS2_WSL/install/psub1/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/linux/ros2_ws/install/psub1/${destination}")
+      set(destination "/home/linux/ROS2_WSL/install/psub1/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install("TARGETS" "pub" "sub" "DESTINATION" "lib/psub1")
-include("/home/linux/ros2_ws/build/psub1/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+include("/home/linux/ROS2_WSL/build/psub1/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/psub1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/psub1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/psub1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/psub1" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/psub1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/psub1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/psub1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/psub1" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/psub1/environment")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/psub1/environment")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/psub1/environment")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/psub1/environment")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/psub1/environment")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/psub1/environment")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/psub1/environment")
 
 # install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/psub1/environment")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/psub1/environment")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/psub1/environment")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/psub1/environment")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/psub1/environment")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/psub1/environment")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/psub1/environment")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/psub1")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/psub1")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/psub1")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/psub1")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/psub1")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/psub1")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/psub1")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/psub1")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/psub1")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/psub1")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/psub1")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/psub1")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/psub1")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/psub1")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/psub1")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/psub1")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/psub1")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/psub1")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/psub1")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/psub1")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_index/share/ament_index/resource_index/packages/psub1" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_index/share/ament_index/resource_index/packages/psub1" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_index/share/ament_index/resource_index/packages/psub1" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_index/share/ament_index/resource_index/packages/psub1" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_core/psub1Config.cmake" "/home/linux/ros2_ws/build/psub1/ament_cmake_core/psub1Config-version.cmake" "DESTINATION" "share/psub1/cmake")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/build/psub1/ament_cmake_core/psub1Config.cmake" "/home/linux/ros2_ws/build/psub1/ament_cmake_core/psub1Config-version.cmake" "DESTINATION" "share/psub1/cmake")
+# install(FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_core/psub1Config.cmake" "/home/linux/ROS2_WSL/build/psub1/ament_cmake_core/psub1Config-version.cmake" "DESTINATION" "share/psub1/cmake")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/build/psub1/ament_cmake_core/psub1Config.cmake" "/home/linux/ROS2_WSL/build/psub1/ament_cmake_core/psub1Config-version.cmake" "DESTINATION" "share/psub1/cmake")
 
-# install(FILES "/home/linux/ros2_ws/src/psub1/package.xml" "DESTINATION" "share/psub1")
-ament_cmake_symlink_install_files("/home/linux/ros2_ws/src/psub1" FILES "/home/linux/ros2_ws/src/psub1/package.xml" "DESTINATION" "share/psub1")
+# install(FILES "/home/linux/ROS2_WSL/src/psub1/package.xml" "DESTINATION" "share/psub1")
+ament_cmake_symlink_install_files("/home/linux/ROS2_WSL/src/psub1" FILES "/home/linux/ROS2_WSL/src/psub1/package.xml" "DESTINATION" "share/psub1")

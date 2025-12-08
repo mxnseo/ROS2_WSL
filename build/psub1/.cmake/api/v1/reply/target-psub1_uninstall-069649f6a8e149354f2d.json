@@ -98,13 +98,13 @@
 		{
 			"backtrace" : 9,
 			"isGenerated" : true,
-			"path" : "/home/linux/ros2_ws/build/psub1/CMakeFiles/psub1_uninstall",
+			"path" : "/home/linux/ROS2_WSL/build/psub1/CMakeFiles/psub1_uninstall",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "/home/linux/ros2_ws/build/psub1/CMakeFiles/psub1_uninstall.rule",
+			"path" : "/home/linux/ROS2_WSL/build/psub1/CMakeFiles/psub1_uninstall.rule",
 			"sourceGroupIndex" : 1
 		}
 	],

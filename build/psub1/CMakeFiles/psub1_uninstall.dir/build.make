@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linux/ros2_ws/src/psub1
+CMAKE_SOURCE_DIR = /home/linux/ROS2_WSL/src/psub1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linux/ros2_ws/build/psub1
+CMAKE_BINARY_DIR = /home/linux/ROS2_WSL/build/psub1
 
 # Utility rule file for psub1_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/linux/ros2_ws/build/psub1
 include CMakeFiles/psub1_uninstall.dir/progress.make
 
 CMakeFiles/psub1_uninstall:
-	/usr/bin/cmake -P /home/linux/ros2_ws/build/psub1/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/linux/ROS2_WSL/build/psub1/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 psub1_uninstall: CMakeFiles/psub1_uninstall
 psub1_uninstall: CMakeFiles/psub1_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/psub1_uninstall.dir/clean:
 .PHONY : CMakeFiles/psub1_uninstall.dir/clean
 
 CMakeFiles/psub1_uninstall.dir/depend:
-	cd /home/linux/ros2_ws/build/psub1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ros2_ws/src/psub1 /home/linux/ros2_ws/src/psub1 /home/linux/ros2_ws/build/psub1 /home/linux/ros2_ws/build/psub1 /home/linux/ros2_ws/build/psub1/CMakeFiles/psub1_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linux/ROS2_WSL/build/psub1 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ROS2_WSL/src/psub1 /home/linux/ROS2_WSL/src/psub1 /home/linux/ROS2_WSL/build/psub1 /home/linux/ROS2_WSL/build/psub1 /home/linux/ROS2_WSL/build/psub1/CMakeFiles/psub1_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/psub1_uninstall.dir/depend
 
