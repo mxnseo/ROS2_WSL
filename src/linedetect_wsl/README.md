@@ -1,11 +1,14 @@
 ### youtube
 
+https://youtu.be/rzmweRMjIdQ?si=mDOGJ1IYiccnWdsr
+
+https://youtu.be/DTijTpPN0IQ?si=v5_ZWiHPjea5bof7
 
 
 
 -----
 
-# ROS2 Line Detector (sub.cpp 상세 분석)
+# ROS2 Line Detector (sub.cpp)
 
 ROS2 환경에서 카메라의 압축 이미지(`CompressedImage`)를 받아 차선을 인식하고, 주행 조향을 위한 오차(Error)를 계산하는 `sub.cpp` 코드에 대한 상세 분석임.
 
