@@ -1,16 +1,14 @@
 ### youtube
 
-https://youtu.be/rzmweRMjIdQ?si=mDOGJ1IYiccnWdsr
+outline : https://youtu.be/rzmweRMjIdQ?si=mDOGJ1IYiccnWdsr
 
-https://youtu.be/DTijTpPN0IQ?si=v5_ZWiHPjea5bof7
+inline : https://youtu.be/DTijTpPN0IQ?si=v5_ZWiHPjea5bof7
 
 
 
 -----
 
 # ROS2 Line Detector (sub.cpp)
-
-ROS2 환경에서 카메라의 압축 이미지(`CompressedImage`)를 받아 차선을 인식하고, 주행 조향을 위한 오차(Error)를 계산하는 `sub.cpp` 코드에 대한 상세 분석임.
 
 ## 1\. 노드 초기화 (Constructor)
 
@@ -39,7 +37,7 @@ LineDetector::LineDetector() : Node("camsub_wsl_12"), tmp_pt_(320, 60), first_ru
 
 ## 2\. 영상 전처리 (Preprocessing)
 
-원본 이미지를 분석하기 좋은 형태로 가공하는 단계임. 단순 이진화가 아니라 조명 보정 로직이 포함됨.
+원본 이미지를 분석하기 좋은 형태로 가공하는 단계
 
 ```cpp
 cv::Mat LineDetector::preprocess_image(const cv::Mat& frame_color) {
@@ -60,12 +58,12 @@ cv::Mat LineDetector::preprocess_image(const cv::Mat& frame_color) {
 }
 ```
 
-  * **밝기 보정**: `cv::mean`으로 현재 이미지의 평균 밝기를 구함. 목표 밝기인 `100`과의 차이만큼 전체 픽셀 값을 더하거나 빼줌. 터널 진입이나 그림자 등 조명 변화가 심한 환경에서도 라인을 잃지 않게 해줌.
+  * **밝기 보정**: `cv::mean`으로 현재 이미지의 평균 밝기를 구함. 목표 밝기인 `100`과의 차이만큼 전체 픽셀 값을 더하거나 빼줌. 
   * **ROI (Region of Interest)**: 불필요한 배경(하늘, 먼 풍경)은 자르고, 차량 바로 앞 도로 영역(`y: 240~360`)만 잘라내어 연산 속도를 높임.
 
 ## 3\. 라인 탐색 및 추적 (Tracking Algorithm)
 
-이 코드의 핵심 알고리즘임. 매 프레임마다 라인을 새로 찾는 게 아니라, \*\*'이전 위치'를 기억해서 추적(Tracking)\*\*하는 방식을 사용함.
+매 프레임마다 라인을 새로 찾는 게 아니라, \*\*'이전 위치'를 기억해서 추적(Tracking)\*\*하는 방식을 사용함.
 
 ### 3.1. 초기 진입 (First Run)
 
@@ -108,11 +106,10 @@ for (int i = 1; i < cnt; i++) {
 
   * **거리 기반 추적**: `tmp_pt_`(이전 프레임의 라인 위치)를 기준으로 거리를 계산함.
   * **탐색 범위 제한**: 아무리 가까워도 `search_radius` (60픽셀)보다 멀리 있는 객체는 무시함.
-  * **목적**: 도로의 노이즈나 옆 차선, 혹은 엉뚱한 물체를 라인으로 착각하여 타겟이 튀는 현상을 방지함.
+
 
 ## 4\. 시각화 (Visualization)
 
-디버깅을 위해 인식된 결과를 화면에 그려주는 함수임.
 
 ```cpp
 void LineDetector::draw_result(...) {
@@ -128,8 +125,6 @@ void LineDetector::draw_result(...) {
   * 이를 통해 알고리즘이 어떤 라인을 보고 있는지 눈으로 쉽게 확인할 수 있음.
 
 ## 5\. 메인 콜백 함수 (Callback Workflow)
-
-데이터가 들어올 때마다 실행되는 전체 로직의 총괄 본부임.
 
 ```cpp
 void LineDetector::mysub_callback(const sensor_msgs::msg::CompressedImage::SharedPtr msg)
@@ -159,4 +154,4 @@ void LineDetector::mysub_callback(const sensor_msgs::msg::CompressedImage::Share
 ```
 
   * 모든 함수들을 순서대로 호출하여 데이터를 처리함.
-  * 최종적으로 계산된 `error` 값(`320 - 현재x좌표`)은 차량이 중앙에서 얼마나 벗어났는지를 나타냄. 이 값이 양수면 왼쪽으로, 음수면 오른쪽으로 핸들을 꺾어야 함을 의미함.
+  * 최종적으로 계산된 `error` 값(`320 - 현재x좌표`)은 중앙에서 얼마나 벗어났는지를 나타냄. 이 값이 양수면 왼쪽으로, 음수면 오른쪽
