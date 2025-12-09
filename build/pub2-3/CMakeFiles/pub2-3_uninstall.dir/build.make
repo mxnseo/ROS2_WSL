@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linux/ros2_ws/src/pub2-3
+CMAKE_SOURCE_DIR = /home/linux/ROS2_WSL/src/pub2-3
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linux/ros2_ws/build/pub2-3
+CMAKE_BINARY_DIR = /home/linux/ROS2_WSL/build/pub2-3
 
 # Utility rule file for pub2-3_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/linux/ros2_ws/build/pub2-3
 include CMakeFiles/pub2-3_uninstall.dir/progress.make
 
 CMakeFiles/pub2-3_uninstall:
-	/usr/bin/cmake -P /home/linux/ros2_ws/build/pub2-3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/linux/ROS2_WSL/build/pub2-3/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 pub2-3_uninstall: CMakeFiles/pub2-3_uninstall
 pub2-3_uninstall: CMakeFiles/pub2-3_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/pub2-3_uninstall.dir/clean:
 .PHONY : CMakeFiles/pub2-3_uninstall.dir/clean
 
 CMakeFiles/pub2-3_uninstall.dir/depend:
-	cd /home/linux/ros2_ws/build/pub2-3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ros2_ws/src/pub2-3 /home/linux/ros2_ws/src/pub2-3 /home/linux/ros2_ws/build/pub2-3 /home/linux/ros2_ws/build/pub2-3 /home/linux/ros2_ws/build/pub2-3/CMakeFiles/pub2-3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linux/ROS2_WSL/build/pub2-3 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ROS2_WSL/src/pub2-3 /home/linux/ROS2_WSL/src/pub2-3 /home/linux/ROS2_WSL/build/pub2-3 /home/linux/ROS2_WSL/build/pub2-3 /home/linux/ROS2_WSL/build/pub2-3/CMakeFiles/pub2-3_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pub2-3_uninstall.dir/depend
 

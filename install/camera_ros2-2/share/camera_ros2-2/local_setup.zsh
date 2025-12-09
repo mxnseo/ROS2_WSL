@@ -1,1 +1,1 @@
-/home/linux/ROS2/build/camera_ros2-2/ament_cmake_environment_hooks/local_setup.zsh
+/home/linux/ROS2_WSL/build/camera_ros2-2/ament_cmake_environment_hooks/local_setup.zsh

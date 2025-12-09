@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/linux/ros2_ws/src/psub1-2/src/sub1-2.cpp" "/home/linux/ros2_ws/build/psub1-2/CMakeFiles/sub1-2.dir/src/sub1-2.cpp.o"
+  "/home/linux/ROS2_WSL/src/psub1-2/src/sub1-2.cpp" "/home/linux/ROS2_WSL/build/psub1-2/CMakeFiles/sub1-2.dir/src/sub1-2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

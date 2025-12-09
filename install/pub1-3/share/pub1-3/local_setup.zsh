@@ -1,1 +1,1 @@
-/home/linux/ros2_ws/build/pub1-3/ament_cmake_environment_hooks/local_setup.zsh
+/home/linux/ROS2_WSL/build/pub1-3/ament_cmake_environment_hooks/local_setup.zsh

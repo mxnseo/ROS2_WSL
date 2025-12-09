@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_nano': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_nano -- -j32 -l32
+[0.047s] [35m[1mScanning dependencies of target pub[0m
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[2.203s] [100%] [32m[1mLinking CXX executable pub[0m
+[2.494s] [100%] Built target pub
+[2.500s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_nano' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_nano -- -j32 -l32
+[2.508s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_nano': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/linedetect_nano
+[2.512s] -- Install configuration: ""
+[2.513s] -- Execute custom install script
+[2.513s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/lib/linedetect_nano/pub
+[2.513s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/ament_index/resource_index/package_run_dependencies/linedetect_nano
+[2.514s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/ament_index/resource_index/parent_prefix_path/linedetect_nano
+[2.514s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/environment/ament_prefix_path.sh
+[2.514s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/environment/ament_prefix_path.dsv
+[2.515s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/environment/path.sh
+[2.515s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/environment/path.dsv
+[2.515s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/local_setup.bash
+[2.516s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/local_setup.sh
+[2.516s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/local_setup.zsh
+[2.516s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/local_setup.dsv
+[2.516s] -- Symlinking: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/package.dsv
+[2.522s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/ament_index/resource_index/packages/linedetect_nano
+[2.522s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/cmake/linedetect_nanoConfig.cmake
+[2.522s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/cmake/linedetect_nanoConfig-version.cmake
+[2.522s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_nano/share/linedetect_nano/package.xml
+[2.523s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_nano' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/linedetect_nano

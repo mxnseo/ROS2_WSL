@@ -1,0 +1,11 @@
+[0.009s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32
+[0.060s] [35m[1mScanning dependencies of target sub[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.270s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.270s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:33:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kture[m[K’ was not declared in this scope
+[1.270s]    33 |  static bool first_run = [01;31m[Kture[m[K;
+[1.270s]       |                          [01;31m[K^~~~[m[K
+[2.198s] make[2]: *** [CMakeFiles/sub.dir/build.make:63: CMakeFiles/sub.dir/src/sub.cpp.o] Error 1
+[2.198s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/sub.dir/all] Error 2
+[2.198s] make: *** [Makefile:141: all] Error 2
+[2.199s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32

@@ -1,0 +1,15 @@
+/home/linux/ROS2_WSL/install/dxl/share/ament_index/resource_index/package_run_dependencies/dxl
+/home/linux/ROS2_WSL/install/dxl/share/ament_index/resource_index/parent_prefix_path/dxl
+/home/linux/ROS2_WSL/install/dxl/share/dxl/environment/ament_prefix_path.sh
+/home/linux/ROS2_WSL/install/dxl/share/dxl/environment/ament_prefix_path.dsv
+/home/linux/ROS2_WSL/install/dxl/share/dxl/environment/path.sh
+/home/linux/ROS2_WSL/install/dxl/share/dxl/environment/path.dsv
+/home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.bash
+/home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.sh
+/home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.zsh
+/home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.dsv
+/home/linux/ROS2_WSL/install/dxl/share/dxl/package.dsv
+/home/linux/ROS2_WSL/install/dxl/share/ament_index/resource_index/packages/dxl
+/home/linux/ROS2_WSL/install/dxl/share/dxl/cmake/dxlConfig.cmake
+/home/linux/ROS2_WSL/install/dxl/share/dxl/cmake/dxlConfig-version.cmake
+/home/linux/ROS2_WSL/install/dxl/share/dxl/package.xml

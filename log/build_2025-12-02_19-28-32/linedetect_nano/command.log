@@ -1,2 +1,0 @@
-Invoking command in '/home/linux/ROS2_WSL/build/linedetect_nano': /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_nano -- -j32 -l32
-Invoked command in '/home/linux/ROS2_WSL/build/linedetect_nano' returned '2': /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_nano -- -j32 -l32

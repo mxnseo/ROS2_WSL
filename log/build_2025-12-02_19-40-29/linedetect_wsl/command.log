@@ -1,4 +1,0 @@
-Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32
-Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32
-Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/linedetect_wsl
-Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/linedetect_wsl

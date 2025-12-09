@@ -1,6 +1,0 @@
-Invoking command in '/home/linux/ROS2/build/dxl_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2/src/dxl_wsl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2/install/dxl_wsl
-Invoked command in '/home/linux/ROS2/build/dxl_wsl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2/src/dxl_wsl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2/install/dxl_wsl
-Invoking command in '/home/linux/ROS2/build/dxl_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2/build/dxl_wsl -- -j28 -l28
-Invoked command in '/home/linux/ROS2/build/dxl_wsl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2/build/dxl_wsl -- -j28 -l28
-Invoking command in '/home/linux/ROS2/build/dxl_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2/build/dxl_wsl
-Invoked command in '/home/linux/ROS2/build/dxl_wsl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2/build/dxl_wsl

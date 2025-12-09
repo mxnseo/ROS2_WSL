@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linux/ROS2/src/dxl_wsl
+CMAKE_SOURCE_DIR = /home/linux/ROS2_WSL/src/dxl_wsl
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linux/ROS2/build/dxl_wsl
+CMAKE_BINARY_DIR = /home/linux/ROS2_WSL/build/dxl_wsl
 
 # Utility rule file for dxl_wsl_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/linux/ROS2/build/dxl_wsl
 include CMakeFiles/dxl_wsl_uninstall.dir/progress.make
 
 CMakeFiles/dxl_wsl_uninstall:
-	/usr/bin/cmake -P /home/linux/ROS2/build/dxl_wsl/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/linux/ROS2_WSL/build/dxl_wsl/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 dxl_wsl_uninstall: CMakeFiles/dxl_wsl_uninstall
 dxl_wsl_uninstall: CMakeFiles/dxl_wsl_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/dxl_wsl_uninstall.dir/clean:
 .PHONY : CMakeFiles/dxl_wsl_uninstall.dir/clean
 
 CMakeFiles/dxl_wsl_uninstall.dir/depend:
-	cd /home/linux/ROS2/build/dxl_wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ROS2/src/dxl_wsl /home/linux/ROS2/src/dxl_wsl /home/linux/ROS2/build/dxl_wsl /home/linux/ROS2/build/dxl_wsl /home/linux/ROS2/build/dxl_wsl/CMakeFiles/dxl_wsl_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linux/ROS2_WSL/build/dxl_wsl && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ROS2_WSL/src/dxl_wsl /home/linux/ROS2_WSL/src/dxl_wsl /home/linux/ROS2_WSL/build/dxl_wsl /home/linux/ROS2_WSL/build/dxl_wsl /home/linux/ROS2_WSL/build/dxl_wsl/CMakeFiles/dxl_wsl_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dxl_wsl_uninstall.dir/depend
 

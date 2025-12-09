@@ -1,0 +1,30 @@
+[0.008s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32
+[0.032s] [35m[1mScanning dependencies of target sub[0m
+[0.045s] [ 50%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[1.112s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.112s] [01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:12:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[1.112s]    12 | void mysub_callback([01;35m[Krclcpp::Node::SharedPtr node[m[K, const sensor_msgs::msg::CompressedImage::SharedPtr msg)
+[1.112s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[2.986s] [100%] [32m[1mLinking CXX executable sub[0m
+[3.245s] [100%] Built target sub
+[3.251s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/linedetect_wsl -- -j32 -l32
+[3.257s] Invoking command in '/home/linux/ROS2_WSL/build/linedetect_wsl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/linedetect_wsl
+[3.261s] -- Install configuration: ""
+[3.261s] -- Execute custom install script
+[3.261s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/lib/linedetect_wsl/sub
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/ament_index/resource_index/package_run_dependencies/linedetect_wsl
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/ament_index/resource_index/parent_prefix_path/linedetect_wsl
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/environment/ament_prefix_path.sh
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/environment/ament_prefix_path.dsv
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/environment/path.sh
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/environment/path.dsv
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/local_setup.bash
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/local_setup.sh
+[3.262s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/local_setup.zsh
+[3.263s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/local_setup.dsv
+[3.263s] -- Symlinking: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/package.dsv
+[3.268s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/ament_index/resource_index/packages/linedetect_wsl
+[3.268s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/cmake/linedetect_wslConfig.cmake
+[3.268s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/cmake/linedetect_wslConfig-version.cmake
+[3.268s] -- Up-to-date symlink: /home/linux/ROS2_WSL/install/linedetect_wsl/share/linedetect_wsl/package.xml
+[3.269s] Invoked command in '/home/linux/ROS2_WSL/build/linedetect_wsl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/linedetect_wsl

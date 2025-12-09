@@ -18,7 +18,10 @@ find_package(cv_bridge REQUIRED)
 find_package(OpenCV REQUIRED)
 
 #build
-add_executable(sub src/sub.cpp)
+add_executable(sub 
+  src/sub.cpp
+  src/main.cpp
+  )
 ament_target_dependencies(sub rclcpp sensor_msgs OpenCV)
 
 # Install

@@ -1,0 +1,72 @@
+[0.049s] Invoking command in '/home/linux/ROS2_WSL/build/dxl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2_WSL/src/dxl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2_WSL/install/dxl
+[0.195s] -- The C compiler identification is GNU 9.4.0
+[0.326s] -- The CXX compiler identification is GNU 9.4.0
+[0.355s] -- Check for working C compiler: /usr/bin/cc
+[0.416s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.417s] -- Detecting C compiler ABI info
+[0.482s] -- Detecting C compiler ABI info - done
+[0.490s] -- Detecting C compile features
+[0.491s] -- Detecting C compile features - done
+[0.492s] -- Check for working CXX compiler: /usr/bin/c++
+[0.569s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.569s] -- Detecting CXX compiler ABI info
+[0.651s] -- Detecting CXX compiler ABI info - done
+[0.660s] -- Detecting CXX compile features
+[0.660s] -- Detecting CXX compile features - done
+[0.661s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.675s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.798s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.882s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.889s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.180s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.433s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.879s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.922s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.926s] -- Looking for pthread.h
+[1.996s] -- Looking for pthread.h - found
+[1.996s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.058s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.059s] -- Looking for pthread_create in pthreads
+[2.120s] -- Looking for pthread_create in pthreads - not found
+[2.120s] -- Looking for pthread_create in pthread
+[2.186s] -- Looking for pthread_create in pthread - found
+[2.186s] -- Found Threads: TRUE  
+[2.286s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.342s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.344s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.353s] -- Configured cppcheck include dirs: 
+[2.354s] -- Configured cppcheck exclude dirs and/or files: 
+[2.354s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.354s] -- Configured cpplint exclude dirs and/or files: 
+[2.357s] -- Added test 'lint_cmake' to check CMake code style
+[2.357s] -- Added test 'uncrustify' to check C / C++ code style
+[2.357s] -- Configured uncrustify additional arguments: 
+[2.357s] -- Added test 'xmllint' to check XML markup files
+[2.358s] -- Configuring done
+[2.359s] -- Generating done
+[2.360s] -- Build files have been written to: /home/linux/ROS2_WSL/build/dxl
+[2.386s] Invoked command in '/home/linux/ROS2_WSL/build/dxl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2_WSL/src/dxl -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2_WSL/install/dxl
+[2.389s] Invoking command in '/home/linux/ROS2_WSL/build/dxl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/dxl -- -j32 -l32
+[2.426s] Invoked command in '/home/linux/ROS2_WSL/build/dxl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/dxl -- -j32 -l32
+[2.434s] Invoking command in '/home/linux/ROS2_WSL/build/dxl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/dxl
+[2.466s] -- Install configuration: ""
+[2.466s] -- Execute custom install script
+[2.466s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/ament_index/resource_index/package_run_dependencies/dxl
+[2.467s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/ament_index/resource_index/parent_prefix_path/dxl
+[2.469s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/environment/ament_prefix_path.sh
+[2.469s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/environment/ament_prefix_path.dsv
+[2.469s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/environment/path.sh
+[2.471s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/environment/path.dsv
+[2.476s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.bash
+[2.483s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.sh
+[2.492s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.zsh
+[2.499s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/local_setup.dsv
+[2.504s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/package.dsv
+[2.510s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/ament_index/resource_index/packages/dxl
+[2.517s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/cmake/dxlConfig.cmake
+[2.523s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/cmake/dxlConfig-version.cmake
+[2.528s] -- Symlinking: /home/linux/ROS2_WSL/install/dxl/share/dxl/package.xml
+[2.536s] Invoked command in '/home/linux/ROS2_WSL/build/dxl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/dxl

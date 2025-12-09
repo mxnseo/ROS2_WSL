@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/linux/ros2_ws/src/pub2-3/src/pub2-3.cpp
+/home/linux/ROS2_WSL/src/pub2-3/src/pub2-3.cpp
 rclcpp/rclcpp.hpp
-/home/linux/ros2_ws/src/pub2-3/src/rclcpp/rclcpp.hpp
+/home/linux/ROS2_WSL/src/pub2-3/src/rclcpp/rclcpp.hpp
 geometry_msgs/msg/twist.hpp
-/home/linux/ros2_ws/src/pub2-3/src/geometry_msgs/msg/twist.hpp
+/home/linux/ROS2_WSL/src/pub2-3/src/geometry_msgs/msg/twist.hpp
 memory
 -
 chrono

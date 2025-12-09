@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/linux/ROS2/src/camera_ros2-2
+CMAKE_SOURCE_DIR = /home/linux/ROS2_WSL/src/camera_ros2-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/linux/ROS2/build/camera_ros2-2
+CMAKE_BINARY_DIR = /home/linux/ROS2_WSL/build/camera_ros2-2
 
 # Utility rule file for uninstall.
 
@@ -67,6 +67,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/linux/ROS2/build/camera_ros2-2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ROS2/src/camera_ros2-2 /home/linux/ROS2/src/camera_ros2-2 /home/linux/ROS2/build/camera_ros2-2 /home/linux/ROS2/build/camera_ros2-2 /home/linux/ROS2/build/camera_ros2-2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/linux/ROS2_WSL/build/camera_ros2-2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/linux/ROS2_WSL/src/camera_ros2-2 /home/linux/ROS2_WSL/src/camera_ros2-2 /home/linux/ROS2_WSL/build/camera_ros2-2 /home/linux/ROS2_WSL/build/camera_ros2-2 /home/linux/ROS2_WSL/build/camera_ros2-2/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

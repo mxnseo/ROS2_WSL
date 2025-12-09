@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/linux/ROS2/src/camera_ros2-2/src/pub2.cpp
+/home/linux/ROS2_WSL/src/camera_ros2-2/src/pub2.cpp
 rclcpp/rclcpp.hpp
-/home/linux/ROS2/src/camera_ros2-2/src/rclcpp/rclcpp.hpp
+/home/linux/ROS2_WSL/src/camera_ros2-2/src/rclcpp/rclcpp.hpp
 sensor_msgs/msg/compressed_image.hpp
-/home/linux/ROS2/src/camera_ros2-2/src/sensor_msgs/msg/compressed_image.hpp
+/home/linux/ROS2_WSL/src/camera_ros2-2/src/sensor_msgs/msg/compressed_image.hpp
 cv_bridge/cv_bridge.h
-/home/linux/ROS2/src/camera_ros2-2/src/cv_bridge/cv_bridge.h
+/home/linux/ROS2_WSL/src/camera_ros2-2/src/cv_bridge/cv_bridge.h
 opencv2/opencv.hpp
-/home/linux/ROS2/src/camera_ros2-2/src/opencv2/opencv.hpp
+/home/linux/ROS2_WSL/src/camera_ros2-2/src/opencv2/opencv.hpp
 memory
 -
 chrono

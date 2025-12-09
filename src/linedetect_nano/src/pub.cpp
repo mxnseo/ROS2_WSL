@@ -19,7 +19,7 @@ int main(int argc, char * argv[])
     
     std_msgs::msg::Header hdr;
     sensor_msgs::msg::CompressedImage::SharedPtr msg;
-    rclcpp::WallRate loop_rate(35.0); // 초당 n장 보내는 중 (주기)
+    rclcpp::WallRate loop_rate(30.0); // 초당 n장 보내는 중 (주기)
 
     cv::VideoCapture cap(src); // 동영상 가져옴
 

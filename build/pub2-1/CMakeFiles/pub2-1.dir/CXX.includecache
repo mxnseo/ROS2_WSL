@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/linux/ros2_ws/src/pub2-1/src/pub2-1.cpp
+/home/linux/ROS2_WSL/src/pub2-1/src/pub2-1.cpp
 rclcpp/rclcpp.hpp
-/home/linux/ros2_ws/src/pub2-1/src/rclcpp/rclcpp.hpp
+/home/linux/ROS2_WSL/src/pub2-1/src/rclcpp/rclcpp.hpp
 std_msgs/msg/int32.hpp
-/home/linux/ros2_ws/src/pub2-1/src/std_msgs/msg/int32.hpp
+/home/linux/ROS2_WSL/src/pub2-1/src/std_msgs/msg/int32.hpp
 memory
 -
 chrono

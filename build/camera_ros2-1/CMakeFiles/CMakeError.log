@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp
+Change Dir: /home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_35c7f/fast && /usr/bin/make -f CMakeFiles/cmTC_35c7f.dir/build.make CMakeFiles/cmTC_35c7f.dir/build
-make[1]: Entering directory '/home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_35c7f.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_35c7f.dir/src.c.o   -c /home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_35c7f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35c7f.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_35c7f.dir/src.c.o  -o cmTC_35c7f 
-/usr/bin/ld: CMakeFiles/cmTC_35c7f.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_6e5fc/fast && /usr/bin/make -f CMakeFiles/cmTC_6e5fc.dir/build.make CMakeFiles/cmTC_6e5fc.dir/build
+make[1]: Entering directory '/home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6e5fc.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_6e5fc.dir/src.c.o   -c /home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6e5fc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6e5fc.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_6e5fc.dir/src.c.o  -o cmTC_6e5fc 
+/usr/bin/ld: CMakeFiles/cmTC_6e5fc.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_35c7f.dir/build.make:87: cmTC_35c7f] Error 1
-make[1]: Leaving directory '/home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_35c7f/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_6e5fc.dir/build.make:87: cmTC_6e5fc] Error 1
+make[1]: Leaving directory '/home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_6e5fc/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp
+Change Dir: /home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_67bfc/fast && /usr/bin/make -f CMakeFiles/cmTC_67bfc.dir/build.make CMakeFiles/cmTC_67bfc.dir/build
-make[1]: Entering directory '/home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_67bfc.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_67bfc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_67bfc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67bfc.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_67bfc.dir/CheckFunctionExists.c.o  -o cmTC_67bfc  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_86912/fast && /usr/bin/make -f CMakeFiles/cmTC_86912.dir/build.make CMakeFiles/cmTC_86912.dir/build
+make[1]: Entering directory '/home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_86912.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_86912.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_86912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86912.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_86912.dir/CheckFunctionExists.c.o  -o cmTC_86912  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_67bfc.dir/build.make:87: cmTC_67bfc] Error 1
-make[1]: Leaving directory '/home/linux/ROS2/build/camera_ros2-1/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_67bfc/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_86912.dir/build.make:87: cmTC_86912] Error 1
+make[1]: Leaving directory '/home/linux/ROS2_WSL/build/camera_ros2-1/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_86912/fast] Error 2
 
 
 

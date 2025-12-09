@@ -1,7 +1,0 @@
-[01m[K/home/linux/ros2_ws/src/pub1-3/src/pub1-3.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/linux/ros2_ws/src/pub1-3/src/pub1-3.cpp:30:34:[m[K [01;35m[Kwarning: [m[Kthis statement may fall through [[01;35m[K-Wimplicit-fallthrough=[m[K]
-   30 |             [01;35m[Kturtle_key.angular.z = 0.0[m[K;
-      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
-[01m[K/home/linux/ros2_ws/src/pub1-3/src/pub1-3.cpp:31:9:[m[K [01;36m[Knote: [m[Khere
-   31 |         [01;36m[Kcase[m[K 'l': // 좌회전
-      |         [01;36m[K^~~~[m[K

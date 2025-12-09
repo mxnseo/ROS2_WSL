@@ -1,6 +1,0 @@
-Invoking command in '/home/linux/ros2_ws/build/psub1-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/psub1-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/psub1-2
-Invoked command in '/home/linux/ros2_ws/build/psub1-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ros2_ws/src/psub1-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ros2_ws/install/psub1-2
-Invoking command in '/home/linux/ros2_ws/build/psub1-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1-2 -- -j10 -l10
-Invoked command in '/home/linux/ros2_ws/build/psub1-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ros2_ws/build/psub1-2 -- -j10 -l10
-Invoking command in '/home/linux/ros2_ws/build/psub1-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ros2_ws/build/psub1-2
-Invoked command in '/home/linux/ros2_ws/build/psub1-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ros2_ws/build/psub1-2

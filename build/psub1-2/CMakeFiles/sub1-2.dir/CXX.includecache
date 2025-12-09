@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/linux/ros2_ws/src/psub1-2/src/sub1-2.cpp
+/home/linux/ROS2_WSL/src/psub1-2/src/sub1-2.cpp
 rclcpp/rclcpp.hpp
-/home/linux/ros2_ws/src/psub1-2/src/rclcpp/rclcpp.hpp
+/home/linux/ROS2_WSL/src/psub1-2/src/rclcpp/rclcpp.hpp
 std_msgs/msg/int32.hpp
-/home/linux/ros2_ws/src/psub1-2/src/std_msgs/msg/int32.hpp
+/home/linux/ROS2_WSL/src/psub1-2/src/std_msgs/msg/int32.hpp
 memory
 -
 functional

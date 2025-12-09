@@ -1,8 +1,8 @@
-# Install script for directory: /home/linux/ros2_ws/src/psub1-2
+# Install script for directory: /home/linux/ROS2_WSL/src/psub1-2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/linux/ros2_ws/install/psub1-2")
+  set(CMAKE_INSTALL_PREFIX "/home/linux/ROS2_WSL/install/psub1-2")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/linux/ros2_ws/build/psub1-2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/linux/ROS2_WSL/build/psub1-2/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -49,5 +49,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/linux/ros2_ws/build/psub1-2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/linux/ROS2_WSL/build/psub1-2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
