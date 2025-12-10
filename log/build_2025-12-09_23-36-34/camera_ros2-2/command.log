@@ -1,6 +1,0 @@
-Invoking command in '/home/linux/ROS2_WSL/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2_WSL/src/camera_ros2-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2_WSL/install/camera_ros2-2
-Invoked command in '/home/linux/ROS2_WSL/build/camera_ros2-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/linux/ROS2_WSL/src/camera_ros2-2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/linux/ROS2_WSL/install/camera_ros2-2
-Invoking command in '/home/linux/ROS2_WSL/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/camera_ros2-2 -- -j32 -l32
-Invoked command in '/home/linux/ROS2_WSL/build/camera_ros2-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/linux/ROS2_WSL/build/camera_ros2-2 -- -j32 -l32
-Invoking command in '/home/linux/ROS2_WSL/build/camera_ros2-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/camera_ros2-2
-Invoked command in '/home/linux/ROS2_WSL/build/camera_ros2-2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/linux/ROS2_WSL/build/camera_ros2-2

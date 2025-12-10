@@ -1,4 +1,0 @@
-[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:[m[K In function ‘[01m[Kvoid mysub_callback(rclcpp::Node::SharedPtr, sensor_msgs::msg::CompressedImage_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/linux/ROS2_WSL/src/linedetect_wsl/src/sub.cpp:12:45:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Knode[m[K’ [[01;35m[K-Wunused-parameter[m[K]
-   12 | void mysub_callback([01;35m[Krclcpp::Node::SharedPtr node[m[K, const sensor_msgs::msg::CompressedImage::SharedPtr msg)
-      |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
