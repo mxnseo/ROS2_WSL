@@ -1,1 +1,0 @@
-/home/linux/ROS2_WSL/build/camera_ros2-2/ament_cmake_core/camera_ros2-2Config.cmake

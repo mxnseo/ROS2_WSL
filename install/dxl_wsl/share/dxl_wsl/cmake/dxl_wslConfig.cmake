@@ -1,1 +1,0 @@
-/home/linux/ROS2_WSL/build/dxl_wsl/ament_cmake_core/dxl_wslConfig.cmake
